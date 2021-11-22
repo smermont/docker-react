@@ -5,7 +5,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 
-# /app/build is the folder that will have everything we care about.
+# /app/build is the folder that will have everything we care about. 
 
 
 FROM nginx
